@@ -1,0 +1,17 @@
+name: semantic-versioning
+run-name: ${{ github.actor }} is preparing release-please
+on:
+    push:
+      branches:
+        - main
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    release-please:
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "Hello, ${{ github.actor }}"
+        - run: npx semantic-release
