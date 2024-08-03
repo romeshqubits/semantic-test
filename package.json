@@ -16,6 +16,11 @@
     "semantic-release": "^24.0.0"
   },
   "release": {
-    "branches": ["main", "dev", "prod"]
+    "branches": ["main", "dev", "prod"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
   }
 }
