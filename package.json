@@ -19,9 +19,9 @@
   },
   "release": {
     "branches": [
-      "main",
-      "dev",
-      "prod"
+      { "name": "dev", "channel": "dev" ,"prerelease": true },
+      { "name": "main", "channel": "main" , "prerelease": true },
+      { "name": "prod" }
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
