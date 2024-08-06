@@ -18,3 +18,8 @@ function multiply(a, b) {
 function divide(a, b) {
     return a / b;
 }
+
+// add function
+function add(a, b) {
+    return a + b;
+}
