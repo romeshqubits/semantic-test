@@ -19,7 +19,7 @@
   },
   "release": {
     "branches": [
-      { "name": "prod" },
+      { "name": "prod", "prerelease": false },
       { "name": "dev", "channel": "dev" ,"prerelease": true },
       { "name": "main", "channel": "main" , "prerelease": true }
     ],
