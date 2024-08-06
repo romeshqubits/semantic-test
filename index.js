@@ -23,3 +23,6 @@ function divide(a, b) {
 function add(a, b) {
     return a + b;
 }
+
+add(1, 2);
+multiply(1, 2);
