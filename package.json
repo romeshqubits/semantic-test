@@ -19,9 +19,8 @@
   },
   "release": {
     "branches": [
-      "main",
-      "dev",
-      "prod"
+      { "name": "main", "prerelease": true },
+      { "name": "prod" }
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
