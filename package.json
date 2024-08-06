@@ -19,7 +19,8 @@
   },
   "release": {
     "branches": [
-      { "name": "main", "prerelease": true },
+      { "name": "dev", "channel": "dev" ,"prerelease": true },
+      { "name": "main", "channel": "main" , "prerelease": true },
       { "name": "prod" }
     ],
     "plugins": [
